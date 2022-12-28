@@ -1,0 +1,22 @@
+1.) Vn und Ground eine Zeile auseinander führen (sodass sie sich nicht berühren, dann muss man sich weniger sorgen wegen Kurzschluss machen)
+2.) Gibt es eine Möglichkeit, die Input Pins des SD Card Moduls umzulegen, sodass die D-Pins direkt in die entsprechneden Pins des SD-Card Moduls führen? Dann würde man sich das Jumper Wire über den Arduino von D13 nach SCK und die "um die Kurve gehenden" Verbindungen nach MOSI und MISO sparen. D4 könnte weiterhin nach CS gehen, dass wäre also kein Problem (so könnte
+--> Weiß nicht, ob das möglich ist? https://forum.arduino.cc/index.php?topic=147320.0
+
+
+3.) Kurze Jumper Wires für VN/Ground/In-Pin für LM368-Amplifier Modul
+--> sowas kaufen?: https://www.amazon.de/KINCREA-2-54mm-Female-Connector-Housing/dp/B07BTB3MC7/ref=sr_1_18?__mk_de_DE=%C3%85M%C3%85%C5%BD%C3%95%C3%91&dchild=1&keywords=jumper+wires&qid=1598645820&quartzVehicle=21-720&replacementKeywords=wires&sr=8-18
+--> https://www.youtube.com/watch?v=eI3fxTH6f6I
+
+4.) Beim nächsten Mal kannst du dir Female Input für VN und Ground für Amplifier Modul sparen. Von Amplifier Modul ausgehend Female -> Male -> Perfboard
+
+5.) Besser, ein Perfboard mit Copper-Lines anstatt Copper-Rings zu benutzen?
+
+6.) Helle, weiße LED kaufen, damit Arcade-Button heller leuchtet
+
+8.) Micro-Switch soll default Open sein und nicht closed, d.h. normalerweise soll KEIN Strom fließen (das spart Energie) --> 2 Pin Micro-Switch kaufen
+
+--> https://www.amazon.de/dp/B082B2HCNF/ref=sspa_dk_detail_4?psc=1&pd_rd_i=B082B2HCNF&pd_rd_w=F8O1V&pf_rd_p=403c666b-0b30-4f66-afde-0388ffdf2c39&pd_rd_wg=cEBkr&pf_rd_r=5EH29Z96SEN5F5W3ZY35&pd_rd_r=67b337c2-58ee-4461-b680-a24bfd56ca9c&spLa=ZW5jcnlwdGVkUXVhbGlmaWVyPUExSDFLQjNaTVVTVURSJmVuY3J5cHRlZElkPUEwMjg1MzM3MTlMMlVGT1U5Q1hFUCZlbmNyeXB0ZWRBZElkPUEwMzE0MTMyRU5WWUJZMTdRVjNBJndpZGdldE5hbWU9c3BfZGV0YWlsJmFjdGlvbj1jbGlja1JlZGlyZWN0JmRvTm90TG9nQ2xpY2s9dHJ1ZQ==
+
+7.) Optional: Poppen und Clicken, wenn .wav file angeht abstellen? 
+8.) Optional: Eigenen Amplifier Circuit auf das Perfboard löten 
+9.) Rotes und Schwarzes Draht-Kabel kaufen (keine Mini-Drähte, sondern ein Draht!)
